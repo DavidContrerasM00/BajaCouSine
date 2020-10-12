@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    font-family: "Segoe UI", 'Roboto';
+    background: #FAB288;
+    transition-duration: 0.4s;
+}
+a{
+    transition-duration: 0.4s;
+    text-decoration: none;
+    color: white;
+}
+.headercontainer{
+    background-color: #F6762C;
+    height: 7.2vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+.logoheadercontainer{
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+}
+.logocactusheadercontainer{
+    height: 35px;
+    width: 28px;
+    float: left;
+    padding: 0px 20px;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+}
+.iconosheadercontainer{
+    font-size: 20px;
+    align-items: center;
+    padding: 0px 20px;
+}
+.iconheader{
+    padding: 0px 20px;
+}
+.maincontainer{
+    margin: auto;
+    margin-top: 5vh;
+    width: 90%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+.bannercontainer{
+    font-size: 40px;
+    height: 80vh;
+    justify-content: center;
+}
+.bannerlogocontainer{
+    width: 60vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 63px;
+    overflow: hidden;
+}
+.infomaincontainer{
+    margin-top: 10vh;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
+}
+.infomainsubcontainer1{
+    display: flex;
+    flex-direction: column;
+}
+.infotitle{
+    font-size: 45px;
+}
+.infosubtitle{
+    padding: 1em;
+    font-size: 25px;
+}
+.info{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border: 3px solid black;
+    width: fit-content;
+    padding: 1em;
+    margin: auto;
+    
+}
+.infomainsubcontainer2{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.logocontainerlapaz{
+    border-radius: 40px;
+    overflow: hidden;
+}
+.footercontainer{
+    background-color: #F6762C;
+    height: 7.2vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0px 20px;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+.logocactusfootercontainer{
+    height: 25px;
+    width: 20px;
+    float: left;
+    padding: 0px 20px;
+}
+.redessociales{
+    display: flex;
+    font-size: 20px;
+}
+.productorow{
+    display: flex;
+    justify-content: space-around;
+    margin: 2vh 2vw;
+}
+.productocontainer{
+padding: .5vh .5vw;
+}
+.imgproductologocontainer{
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.imgproductologocontainer:hover{
+    opacity: 70%;
+    transition-duration: .4s;
+}   
+.precio{
+    font-size: 25px;
+}
+.descripcion{
+    font-size: 20px;
+}
+.contactomaincontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.contactoimg{
+    width: 50%;
+    margin-bottom: 2px;
+}
+.mapa{
+    border: 3px solid black;
+}
+.contactoform{
+    width: 50%;
+}
+.toptext{
+    font-size: 20px;
+}
+.toptext b{
+    font-size: 28px;
+}
+.formulariocontacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formcontrol{
+    justify-content: center;
+    display: block;
+    width: 70%;
+    border: 1px solid #ced4da;
+    padding: 6px 10px;
+    height: 24px;
+    border-radius: 5px;
+    color: #495057;
+    margin: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    transition-duration: 0.4s;  
+}
+.formcontrol:focus{
+    outline-color: #F6762C;
+}
+.formcontrol:hover{
+    border-color: #F6762C;
+}
+.comentarios{
+    height: 35vh;
+}
+.botoncontainer{
+    justify-content: center;
+}
+.boton{
+    width: 20%;
+    background-color: #F6762C;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 1em;
+    transition-duration: 0.4s;
+}
+.boton:hover{
+    background-color: rgba(246,118,44,.70) 
+}
+textarea, input{
+    font-family: "Segoe UI", 'Roboto';
+}   
+a:hover{
+    color:#FAB288;
+}
+@media screen and (max-width:1024px){
+    .infomaincontainer{
+        flex-direction: column;
+    }
+    .infomainsubcontainer1{
+        margin-bottom: 3vh;
+    }
+    .precio{
+        font-size: 18px;
+    }
+    .descripcion{
+        font-size: 15px;
+    }
+    .maincontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .productorow{
+        flex-wrap: wrap;
+    }
+    .contactoform{
+        width: auto;
+    }
+    .contactoimg{
+        width: auto;
+    }
+    .toptext{
+        font-size: 12px;
+    }
+    .toptext b{
+        font-size: 16px;
+    }
+    .comentarios{
+        height: 55vh;
+        margin-bottom: 4vh;
+    }
+    
+
+}
+@media screen and (max-width: 768px){
+    .bannercontainer{
+        height: 40vh;
+    }
+    .bannerlogocontainer{
+        height: 40vh;
+    }
+    .footercontainer{
+        font-size: 11px;
+    }
+    .imgproductologocontainer{
+        width: 250px;
+        height: 250px;
+    }
+    .contactomaincontainer{
+        flex-flow: column;
+    }
+    .contactoimg{
+        width: auto;
+    }
+}

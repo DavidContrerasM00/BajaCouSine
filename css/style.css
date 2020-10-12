@@ -271,3 +271,32 @@ a:hover{
         width: auto;
     }
 }
+@media screen and (max-width: 640px){
+    header{
+        font-size: 0px;
+    }
+    .headercontainer, .footercontainer{
+        height: 10vh;
+    }
+    .logoheadercontainer{
+        font-size: 14px;
+    }
+    .iconosheadercontainer{
+        font-size: 16px;
+    }
+    .iconheader{
+        padding: 0px 8px;
+    }
+    .bannerlogocontainer{
+        height: auto;
+    }
+    .bannercontainer{
+        height: auto;
+    }
+    .footercontainer{
+        font-size: 0px;
+    }
+    .mapa{
+        width: 90%;
+    }
+}
